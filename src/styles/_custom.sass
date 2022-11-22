@@ -1,19 +1,275 @@
 .banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+  &-6
+    animation: float1 s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 95%
+    display: none
+  &-5
+    animation: float1 1.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 95%
+  &-4
+    animation: float1 1.4s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 95%
+  &-3
+    animation: float1 1.3s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 95%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 1.2s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 95%
+  &-1
+    animation: float1 1s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 95%
+  &-7
+    animation: float2 4.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 70%  
+  &-8
+    animation: float4 4.8s ease-in-out infinite alternate
+    position: absolute
+    top: 55%
+    right: 10% 
+  &-9
+    animation: float2 4.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 10%   
 
+  &-11
+    animation: rotate 8s linear infinite
+    position: absolute
+    width: 315px
+    top: 20.5%
+    right: 5.9%
+    z-index: -1
 
+.banner-principal__img
+  z-index: 1        
 @keyframes float1
   0%
-    transform: translateY(20px)
+    opacity: 1
+
+  20%
+    opacity: 1
 
   100%
-    transform: translateY(0px)
+    opacity: 0 
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-20px) rotate(-180deg)  
+
+@keyframes float3
+  0%
+    transform: translatex(-20px)
+
+  50%
+    transform: translatex(0px)
+  100%
+    transform: rotate(-10deg)
+
+@keyframes float4
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(-20px) rotate(180deg)     
+
+.banner-principal__img
+  width: 400px !important    
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/10.png") !important
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto      
+
+@keyframes rotate 
+  0%
+    transform: rotate(0)
+
+  100%
+    transform: rotate(360deg)  
+    
+.bloque-texto-d.color-secundario::before
+  background-color: #FDF2C5
+.bloque-texto-d
+  border-top: 0px
+
+.tarjeta.color-acento-contenido--borde
+  background-color: #FDF2C5
+
+.bloque-texto-d i
+  color: #7FC733 
+
+.tarjeta.color-acento-contenido--borde
+  background-color: #FDF2C5
+  border: 4px solid #F7CA2E
+.tabs-a.color-acento-contenido .tabs-a__tab__selected::before 
+  background-color: #F7CA18
+.tabs-a.color-acento-contenido .tabs-a__tab:hover, .tabs-a.color-acento-contenido .tabs-a__tab:active, .tabs-a.color-acento-contenido .tabs-a__tab:focus, .tabs-a.color-acento-contenido .tabs-a__tab__selected
+  background-color: #F7CA18 !important
+.tabs-a__tab 
+  background-color: #E8E8E8             
+
+.colorv
+  color: #7FC733 !important
+
+.tarjeta.color-primario
+  background-color: #F6F6F6
+  border-left: 35px solid #7FC733 !important
+
+.tarjeta.color-primario *
+  color: $color-sistema-texto
+
+.img-infografica__card
+  z-index: -1
+
+.img-infografica__card--selected
+  z-index: 1   
+
+.acordion
+  .tarjeta.bg6
+    background-color: #F7F4FF
+
+.tarjeta.bg6.acordion__activo
+  background-color: #FEF7DC !important   
+
+.cajon.color-primario
+  background-color: #D9CCEF  
+
+.cajon.color-acento-contenido
+  background-color: #FDF2C5 
+
+.tabs-c__tab--active       
+  font-weight: bold    
+
+.bg1
+  background-color: #CAB8E9
+  cursor: pointer
+  border-radius: 20px   
+.bg1:hover
+  background-color: #B13E8D
+  cursor: pointer
+  border-radius: 20px
+  *
+    color: white  
+
+.horizontal-scroll
+  align-items: stretch !important    
+
+.bg2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -5rem
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/19.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top         
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: $color-sistema-texto
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #F7F4FF
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before 
+    background-color: #FEF7DC 
+.crd--last
+  &::before 
+    background-color: #FEF7DC 
+.crd--med
+  &::before 
+    background-color: #FEF7DC
+.crd--first
+  &::before 
+    border-radius: 30px  30px 0 0 
+.crd--last
+  &::before 
+    border-radius: 0 0 30px 30px  
+
+.bloque-fondo1
+  background-image: url(../assets/curso/temas/26.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom      
+
+.bg3
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -5rem
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/30.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top    
+
+.bg4
+  background-color: #FEF7DC
+  border-radius: 20px           
+
+.img-w1 
+ width: 28% !important
+ top: 2% !important  
+
+.bgp
+  background: linear-gradient(263deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 72%, rgba(247,202,46,1) 87%, rgba(247,202,46,1) 88%, rgba(247,202,46,1) 90%, rgba(247,202,46,1) 92%, rgba(247,202,46,1) 94%, rgba(247,202,46,1) 96%, rgba(247,202,46,1) 98%, rgba(247,202,46,1) 100%); 
+  border-radius: 5px 
+  -webkit-backdrop-filter: blur(1px)
+  backdrop-filter: blur(1px)   
+
+.bloque-fondo2
+  background-image: url(../assets/curso/temas/37.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom    
