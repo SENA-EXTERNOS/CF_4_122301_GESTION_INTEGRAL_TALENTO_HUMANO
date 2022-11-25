@@ -66,6 +66,7 @@
                 p(data-aos="fade-down").mb-0 Desde una perspectiva más general, para finalizar con la construcción del plan de evaluación del desempeño, se toma como insumo primordial el cronograma de actividades y los plazos establecidos, la asignación de fechas de inicio y de finalización de esta evaluación, y se ajusta directamente con la frecuencia definida en los procedimientos que se han establecido en la organización.
         .col-lg-4
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.png', alt='') 
+    p(data-aos="fade-down").mb-5 Una asignación se puede llevar a cabo de la siguiente forma:          
     .row.justify-content-center      
       .col-lg-10
         .row.justify-content-center.mb-5           

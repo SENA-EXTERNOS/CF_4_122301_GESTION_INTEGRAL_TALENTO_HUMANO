@@ -6,12 +6,12 @@
       .titulo-principal__numero
         span 3
       h1 Normativa de evaluación de desempeño y confidencialidad
-    .row.justify-content-center.align-items-start.mb-5           
+    .row.justify-content-center.align-items-start.mb-4           
       .col-lg-2
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.svg', alt='')    
       .col-lg-10
         p(data-aos="fade-down") En primera instancia, hablemos sobre normatividad, que es el punto de partida para la implementación de la evaluación del desempeño al interior de las organizaciones; es por eso que los entes reguladores de la evaluación del desempeño, deben aplicar la legislación, dependiendo de la entidad; en el caso puntual de las empresas públicas, la normatividad aplicable está ligada al cumplimiento de la Ley 909 de 2004, y las empresas privadas están regidas bajo la ISO 9001:2015 en la cláusula número 9, la cual regula la evaluación del desempeño, siempre y cuando estas organizaciones tengan implementados los diferentes sistemas de gestión, con relación al cumplimiento de procedimientos y normatividad empresarial.
-
+    p(data-aos="fade-down").mb-5 En la evaluación del desempeño, es importante tener siempre presente los siguientes tres procesos:
     .row.justify-content-center.align-items-start.mb-5   
       .col-lg-5
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='')     
@@ -51,7 +51,7 @@
           h4(data-aos="fade-down").mb-0 Confidencialidad 
     .row.justify-content-center.align-items-start.mb-5           
       .col-lg-2
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.svg', alt='')    
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/36.png', alt='')    
       .col-lg-10
         p(data-aos="fade-down") Todos los miembros de la organización tienen derecho a que la información que sea suministrada para la evaluación del desempeño, sea reservada de acuerdo con los estándares de seguridad, cobijados por la normatividad nacional y la ética profesional de los colaboradores involucrados en la planeación y preparación de la evaluación del desempeño, garantizando proteger la privacidad de los miembros de la organización.
 
@@ -68,7 +68,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/38.png', alt='')     
       .col-lg-8
         TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
-          .tarjeta.color-acento-contenido--borde.p-4(titulo="Sentencia 748<br> de 2011 Corte Constitucional")
+          .tarjeta.color-acento-contenido--borde.p-4(titulo="Sentencia 748<br> de 2011 Corte <br>Constitucional")
             p Mediante la cual se realiza el Control de Constitucionalidad del proyecto de Ley Estatutaria en la cual se establecen las disposiciones generales del habeas data y protección de datos personales.  
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Ley Estatutaria<br> 1851 de 2012")
             p Legislación por la cual se dictan las generalidades para la protección de datos personales, como es conocer, actualizar y rectificar la información que se haya recopilado sobre el usuario, en bases de datos.  
@@ -77,7 +77,9 @@
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Decreto 1081<br> de 2015")
             p Mediante el cual se ilustran las directrices generales para la publicación de información pública.  
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Decreto 255<br> de 2022")
-            p En el cual se establecen las normas corporativas vinculantes para la certificación de buenas prácticas en protección de datos personales y su transferencia a terceros países.                                                                                 
+            p En el cual se establecen las normas corporativas vinculantes para la certificación de buenas prácticas en protección de datos personales y su transferencia a terceros países. 
+
+    p(data-aos="fade-down").mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.                                                                                            
 </template>
 
 <script>
