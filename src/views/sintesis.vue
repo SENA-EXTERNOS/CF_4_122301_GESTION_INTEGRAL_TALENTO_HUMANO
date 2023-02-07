@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p(data-aos="fade-down").mb-5 En el diagrama se sintetizan los componentes que estructuran preparación y planeación de la evaluación de desempeño, permitiendo identificar correctamente las técnicas y metodologías para efectuar efectivamente la medición al interior de las organizaciones.
+    p(data-aos="fade-down").mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5

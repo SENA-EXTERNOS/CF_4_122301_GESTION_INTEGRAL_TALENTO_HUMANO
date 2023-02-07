@@ -60,8 +60,15 @@
       .col-lg-10
         .cajon.color-primario.p-4.mb-5(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 Cuando se hace referencia al alcance de la confidencialidad de la información en la evaluación del desempeño, es fundamental establecer los integrantes de la organización y tener claridad sobre a cuáles miembros de la empresa les serán compartidas las bases de datos con la información de los resultados y el objetivo que tienen sobre el análisis de estos resultados, con la finalidad de evitar riesgos al interior de la organización.
+    .row.justify-content-start.align-items-center.mb-5           
+      .col-lg-auto
+        .bgp.p-1(data-aos="fade-right")
+          h4(data-aos="fade-down").mb-0 Normatividad 
+    p(data-aos="fade-down") La normatividad es el punto de partida para el cumplimiento de las políticas de tratamientos de datos personales.
+    p(data-aos="fade-down") Existe una amplia variedad de leyes, decretos y sentencias que son el marco legal y jurisprudencial de las directrices del debido proceso, frente a la confidencialidad de la información.
 
-    p(data-aos="fade-down").mb-5 La normatividad es el punto de partida para el cumplimiento de las políticas de tratamientos de datos personales, existe una amplia variedad de leyes, decretos y sentencias que son el marco legal y jurisprudencial de las directrices del debido proceso frente a la confidencialidad de la información; por esta razón, es esencial distinguir las generalidades con el objetivo de prevenir riesgos y proteger la información reservada de los miembros de la organización. 
+    p(data-aos="fade-down").mb-5 Distinga las generalidades de la normatividad y los fundamentos para prevenir riesgos y proteger la información reservada de los miembros de la organización:
+
 
     .row.justify-content-center.align-items-start.mb-5   
       .col-lg-4
