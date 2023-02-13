@@ -64,7 +64,7 @@
       .col-lg-auto
         .bgp.p-1(data-aos="fade-right")
           h4(data-aos="fade-down").mb-0 Normatividad 
-    p(data-aos="fade-down") La normatividad es el punto de partida para el cumplimiento de las políticas de tratamientos de datos personales.
+    p(data-aos="fade-down") La normatividad es el punto de partida para el cumplimiento de las políticas de tratamiento de datos personales.
     p(data-aos="fade-down") Existe una amplia variedad de leyes, decretos y sentencias que son el marco legal y jurisprudencial de las directrices del debido proceso, frente a la confidencialidad de la información.
 
     p(data-aos="fade-down").mb-5 Distinga las generalidades de la normatividad y los fundamentos para prevenir riesgos y proteger la información reservada de los miembros de la organización:
