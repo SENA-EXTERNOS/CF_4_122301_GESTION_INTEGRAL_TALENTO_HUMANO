@@ -215,7 +215,7 @@
         .bg1.p-5.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/16.svg', alt='')
           h4.mb-5 Digitales
-          p Se encuentran relacionados con las bases de datos integradas a la organización, las cuales pueden brindar a tan solo un par de “clics”, el rendimiento del colaborador, siempre y cuando toda la información se encuentre parametrizada en nubes digitales o sistemas integrados de trazabilidad; del mismo modo, hacen parte de este grupo los software especializados, proporcionados por las áreas de tecnologías de la información o empresas externas, con base en la evaluación del desempeño, de acuerdo con la necesidad de la organización. 
+          p Se encuentran relacionados con las bases de datos integradas a la organización, las cuales pueden brindar a tan solo un par de “clics”, el rendimiento del colaborador, siempre y cuando toda la información se encuentre parametrizada en nubes digitales o sistemas integrados de trazabilidad; del mismo modo, hacen parte de este grupo los #[em software] especializados, proporcionados por las áreas de tecnologías de la información o empresas externas, con base en la evaluación del desempeño, de acuerdo con la necesidad de la organización. 
                         
       .col-lg-5(data-aos="fade-right")
         .bg1.p-5.h-100

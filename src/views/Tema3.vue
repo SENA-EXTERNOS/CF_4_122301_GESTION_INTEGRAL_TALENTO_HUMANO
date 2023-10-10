@@ -43,7 +43,7 @@
 
           .row.justify-content-center.align-items-center(titulo="Ámbito de aplicación")
             .col-10
-              P Para lograr el éxito de la ejecución de los procedimientos, los integrantes del talento humano al interior de la organización, deben tener claro el concepto de ámbito de aplicación, el cual hace referencia a quienes serán las partes involucradas en el proceso de evaluación del desempeño, es decir, en este caso, se tiene en cuenta la cantidad de colaboradores que serán evaluados, su distribución poblacional de acuerdo con las áreas y el campo de acción, con el objetivo de dejar claras las reglas de aplicación.
+              P Para lograr el éxito de la ejecución de los procedimientos, los integrantes del talento humano al interior de la organización, deben tener claro el concepto de ámbito de aplicación, el cual hace referencia a quiénes serán las partes involucradas en el proceso de evaluación del desempeño, es decir, en este caso, se tiene en cuenta la cantidad de colaboradores que serán evaluados, su distribución poblacional de acuerdo con las áreas y el campo de acción, con el objetivo de dejar claras las reglas de aplicación.
 
     .row.justify-content-start.align-items-center.mb-5           
       .col-lg-auto
@@ -76,7 +76,7 @@
       .col-lg-8
         TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Sentencia 748<br> de 2011 Corte <br>Constitucional")
-            p Mediante la cual se realiza el Control de Constitucionalidad del proyecto de Ley Estatutaria en la cual se establecen las disposiciones generales del habeas data y protección de datos personales.  
+            p Mediante la cual se realiza el Control de Constitucionalidad del proyecto de Ley Estatutaria en la cual se establecen las disposiciones generales del #[em habeas data] y protección de datos personales.  
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Ley Estatutaria<br> 1851 de 2012")
             p Legislación por la cual se dictan las generalidades para la protección de datos personales, como es conocer, actualizar y rectificar la información que se haya recopilado sobre el usuario, en bases de datos.  
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Decreto 1377<br> de 2013")
